@@ -257,7 +257,7 @@ h2 {
 .nav2 {
     margin-top: 24px;
     margin-bottom: 24px;
-    color: #6F7069;
+    color: white;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -266,7 +266,7 @@ h2 {
     width: 45%;
     height: 1px;
     margin: auto;
-    background-color: #6F7069;
+    background-color: white;
 }
 
 .pnav2 {
@@ -274,6 +274,7 @@ h2 {
     margin: auto;
     padding-top: 20px;
     text-align: center;
+    color: white;
 }
 
 .btn-dark {
@@ -287,6 +288,11 @@ h2 {
 .btn-dark:hover {
     background-color: #6F7069;
     opacity: 0.8;
+}
+
+.curved {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /*coloured banner container - single image, text and button*/

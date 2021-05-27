@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*default body*/
+body, html {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+  }
+
+/*default paragraph text*/
+p {
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+/*defining the header containing nav bar, logo, icon links*/
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+    height: 93px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+/*custom colours for use in html file*/
+.bg-custom1 {
+    background-color: #dbccbd;
+}
+
+.bg-custom2 {
+    background-color: #b9a38e;
+}
+
+.bg-custom3 {
+    background-color: #6F7069;
+}
+
+/*hamburger drop down menu*/
+.navbar {
+    width: 300px;
+    height: 100%;
+    background-color: #b9a38e;
+    position: fixed;
+    top: 93px;
+    right: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right .8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+    left: 0;
+}
+
+/*hamburger drop down menu*/
+.hamburger-menu {
+    width: 90px;
+    height: 90px;
+    background-color: #6F7069;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*hamburger lines*/
+.line {
+    width: 25%;
+    height: 1px;
+    margin: auto;
+    background-color: white;
+    transition: all 0.8s;
+}
+
+.change .line1 {
+    transform: rotateZ(-405deg) translate(-7.7px, 6.5px);
+    background-color: #6F7069;
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotateZ(405deg) translate(-7.7px, -6.5px);
+    background-color: #6F7069;
+}
+
+/*hamburger nav items and links*/
+.nav-list {
+    text-align: left;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 450;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    top: -100px;
+    position: relative;
+    padding: 3px 0;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/*hamburger functionality*/
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #6F7069;
+    position: absolute;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/*logo positioning*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+/*chat header icon*/
+.chat-icon {
+    width: 30px;
+    height: 90px;
+    font-size: 35px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 254px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat-link:hover {
+    color: #6F7069;
+    background-color: none;
+}
+
+.chat-link {
+    margin: 30px;
+    color: #b9a38e;
+    background-color: none;
+}
+
+/* email header icon */
+.email-icon {
+    width: 30px;
+    height: 90px;
+    font-size: 35px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 188px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-link:hover {
+    color: #6F7069;
+    background-color: none;
+}
+
+.email-link {
+    margin: 30px;
+    color: #b9a38e;
+    background-color: none;
+}
+
+/* location header icon */
+.location-icon {
+    width: 60px;
+    height: 90px;
+    font-size: 35px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 110px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-link:hover {
+    color: #6F7069;
+}
+
+.location-link {
+    margin: 30px;
+    color: #6F7069;
+}
+
+/*h2*/
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*body carousel*/
+.carousel-caption {
+    background-color: #6F7069;
+    padding: 25px 25px 15px 25px;
+    margin-bottom: 7%;
+}
+
+/*carousel heading text*/
+.carhea {
+    letter-spacing: 5px;
+}
+
+/*hotel facilities container - images with descriptions with Discover More links*/
+.nav2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #6F7069;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.linenav2 {
+    width: 45%;
+    height: 1px;
+    margin: auto;
+    background-color: #6F7069;
+}
+
+.pnav2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn-dark {
+    font-size: 8pt;
+    letter-spacing: 2px;
+    margin-top: 24px;
+    background-color: #6F7069;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #6F7069f;
+    opacity: 0.8;
+}
+
+/*coloured banner container - single image, text and button*/
+.jumbotron-fluid {
+    background-color: #6F7069e;
+    text-align: center;
+}
+
+.display-4 {
+    letter-spacing: 2px;
+    color: white;
+}
+    
+.lead {
+    font-size: 11pt;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
+}
+
+.jumimg {
+    margin-right: 110px;  
+}
+
+.btn-jumimg {
+    font-size: 8pt;
+    color: white; 
+    letter-spacing: 2px;
+    margin-top: 45px;
+    margin-bottom: -25px;
+    background-color: #6F7069;
+    border: none;
+}
+
+.btn-jumimg:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+/*lower container*/
+.tpad {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*footer main*/
+.row { 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.h71a {
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.ul1a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 9pt;
+    line-height: 25px;
+    list-style: none;
+    color: white;
+}
+
+.li1:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #6F7069;
+    text-decoration: none;
+}
+
+.h71b {
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.ul1b {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 9pt;
+    line-height: 25px;
+    list-style: none;
+    color: white;
+}
+
+.h71c {
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.ul1c {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 9pt;
+    line-height: 25px;
+    list-style: none;
+    color: white;
+}
+
+/*footer social media links*/
+.fa-facebook {
+    color: white;
+    padding-right: 14px;
+}
+
+.fa-twitter {
+    color: white;
+    padding-right: 14px;
+}
+
+.fa-google {
+    color: white;
+    padding-right: 14px;
+}
+
+.fa-instagram {
+    color: white;
+    padding-right: 14px;
+}
+
+.fa-youtube {
+    color: white;
+    padding-right: 14px;
+}
+
+.fa-pinterest {
+    color: white;
+    padding-right: 14px;
+}
+ 
+/*footer newsletter sign-up*/
+.text-n {
+    font-size: 11pt;
+    color: white;
+}
+  
+input[type=text], input[type=submit] {
+    width: 40%;
+    display: inline-block;
+    border: none;
+}
+  
+input[type=checkbox] {
+    margin-top: 4px;
+    border: none;
+}
+
+.ticktext {
+    font-size: 8pt;
+    color: white;
+}
+  
+input[type=submit] {
+    background-color: #6F7069;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 16%;
+    font-size: 8pt;
+    letter-spacing: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+  
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/*footer award images*/
+.imgtrans {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+/*footer - lower*/
+.container-footer {
+    background-color: white;
+    color: #6F706;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: right;
+}

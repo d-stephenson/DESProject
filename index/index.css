@@ -253,6 +253,27 @@ header {
     color: #6F7069;
 }
 
+.subheaderlink1 {
+    color: white;
+    position: fixed;
+    right: 150px;
+    margin-top: -114px;
+}
+
+.subheaderlink2 {
+    color: white;
+    position: fixed;
+    right: 310px;
+    margin-top: -114px;
+}
+
+.subheaderlink3 {
+    color: white;
+    position: fixed;
+    right: 450px;
+    margin-top: -114px;
+}
+
 /*h2*/
 h2 {
     text-align: center;

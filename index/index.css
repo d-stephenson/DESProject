@@ -6,7 +6,7 @@
 
 /*default body*/
 body, html {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
     height: 100%;
   }
 
@@ -25,6 +25,18 @@ header {
     top: 0;
     width: 100%;
     background: white;
+    height: 50px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.subheader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background: #6F7069;
     height: 93px;
     z-index: 999;
     overflow: hidden;
@@ -49,7 +61,7 @@ header {
     height: 100%;
     background-color: #6F7069;
     position: fixed;
-    top: 93px;
+    top: 50px;
     right: -300px;
     display: flex;
     justify-content: center;
@@ -65,7 +77,7 @@ header {
 .hamburger-menu {
     width: 90px;
     height: 90px;
-    background-color: #6F7069;
+    background-color: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -84,6 +96,12 @@ header {
     margin: auto;
     background-color: white;
     transition: all 0.8s;
+}
+
+.sublinks {
+    color: white;
+    margin-right: 200px;
+    margin-top: 150px;;
 }
 
 .change .line1 {
@@ -165,12 +183,12 @@ header {
 /*chat header icon*/
 .chat-icon {
     width: 30px;
-    height: 90px;
+    height: 50px;
     font-size: 35px;
     background-color: none;
     position: fixed;
     top: 0px;
-    right: 254px;
+    right: 164px;
     cursor: pointer;
     display: flex;
     justify-content: space-around;
@@ -182,7 +200,7 @@ header {
 }
 
 .chat-link {
-    margin: 30px;
+    margin: 15px;
     color: #6F7069;
     background-color: none;
 }
@@ -190,12 +208,12 @@ header {
 /* email header icon */
 .email-icon {
     width: 30px;
-    height: 90px;
+    height: 50px;
     font-size: 35px;
     background-color: white;
     position: fixed;
     top: 0px;
-    right: 188px;
+    right: 98px;
     cursor: pointer;
     display: flex;
     justify-content: space-around;
@@ -207,7 +225,7 @@ header {
 }
 
 .email-link {
-    margin: 30px;
+    margin: 15px;
     color: #6F7069;
     background-color: none;
 }
@@ -215,12 +233,12 @@ header {
 /* location header icon */
 .location-icon {
     width: 60px;
-    height: 90px;
+    height: 50px;
     font-size: 35px;
     background-color: white;
     position: fixed;
     top: 0px;
-    right: 110px;
+    right: 20px;
     cursor: pointer;
     display: flex;
     justify-content: space-around;
@@ -231,7 +249,7 @@ header {
 }
 
 .location-link {
-    margin: 30px;
+    margin: 15px;
     color: #6F7069;
 }
 
@@ -267,6 +285,13 @@ h2 {
     height: 1px;
     margin: auto;
     background-color: white;
+}
+
+.linenav3 {
+    width: 28%;
+    height: 1px;
+    margin: auto;
+    background-color: black;
 }
 
 .pnav2 {
@@ -486,7 +511,7 @@ input[type=submit]:hover {
     font-size: 8pt;
     letter-spacing: 1px;
     padding-top: 10px;
-    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 10px;
-    text-align: right;
+    text-align: left;
 }

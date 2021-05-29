@@ -642,7 +642,7 @@ table {
 }
 
 .specs {
-    font-size: 4em;
+    font-size: 2.5em;
     text-align: center;
     letter-spacing: .5rem;
 }
@@ -676,8 +676,8 @@ table {
     color: #6F7069;
     border: none;
     border-radius: 25px;
-    font-size: 12pt;
-    letter-spacing: 2px;
+    font-size: 10pt;
+    letter-spacing: 1px;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;

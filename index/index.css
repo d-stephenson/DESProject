@@ -42,6 +42,12 @@ header {
     overflow: hidden;
 }
 
+.gnflogo {
+    position: fixed;
+    left: 150px;
+    margin-top: -30px;
+}
+
 /*custom colours for use in html file*/
 .bg-custom1 {
     background-color: #6F7069;
@@ -257,21 +263,21 @@ header {
     color: white;
     position: fixed;
     right: 150px;
-    margin-top: -114px;
+    margin-top: 40px;
 }
 
 .subheaderlink2 {
     color: white;
     position: fixed;
     right: 310px;
-    margin-top: -114px;
+    margin-top: 40px;
 }
 
 .subheaderlink3 {
     color: white;
     position: fixed;
     right: 450px;
-    margin-top: -114px;
+    margin-top: 40px;
 }
 
 /*h2*/

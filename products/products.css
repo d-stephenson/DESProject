@@ -684,6 +684,15 @@ input[type=select] {
     margin: 2%;
 }
 
+.linenav4 {
+    width: 28%;
+    height: 1px;
+    margin: auto;
+    background-color: black;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
 
 
 

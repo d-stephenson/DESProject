@@ -311,7 +311,7 @@ header {
 /*h1new*/
 .h1new {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
     color: #6F7069;
     font-size: 4em;
 }
@@ -691,6 +691,15 @@ input[type=select] {
     background-color: black;
     margin-top: 8px;
     margin-bottom: 35px;
+}
+
+.navmap {
+    margin-top: 160px; 
+    text-align: right;
+    color: #a88564;
+    font-size: 1.2em;
+    margin-right: 25px;
+    letter-spacing: 2px;
 }
 
 

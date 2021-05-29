@@ -713,6 +713,17 @@ input[type=select] {
     margin-top: 15px;
 }
 
+input[type=quote] {
+    width: 70%;
+    display: inline-block;
+    border-color: black;
+    margin: auto;
+}
+
+.inputtext {
+    text-align: right;
+}
+
 
 
     

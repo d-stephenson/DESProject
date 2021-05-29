@@ -611,8 +611,11 @@ table {
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    align-self: center;
     color: #6F7069;
+}
+
+.tbl2 {
+    margin-top: -25px;
 }
 
 .top {
@@ -638,15 +641,49 @@ table {
     padding-bottom: 25px;
 }
 
+.specs {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
 .bottom {
     padding-top: 50px;
     height: auto;
 }
 
-.specs {
-    font-size: 4em;
+.leftbd {
+    background-color: #6f7069;
+    vertical-align: top;
+    padding-top: 45px;
+    width: 50%;
     text-align: center;
+    padding-bottom: 45px;
+    color: white;
+    padding-right: 5%;
+    padding-left: 5%;
 }
+
+.rightbd {
+    background-color: #c9b9a8;
+    border-bottom-right-radius: 25px;
+    justify-content: center;
+    margin: auto;
+}
+
+input[type=select] {
+    background-color: white;
+    color: #6F7069;
+    border: none;
+    border-radius: 25px;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 2%;
+}
+
 
 
 

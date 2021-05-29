@@ -702,7 +702,12 @@ input[type=select] {
     letter-spacing: 2px;
 }
 
-
+.sectionlower {
+    height: auto;
+    background-image: url('/images/texturedBackground.jpg'); 
+    background-size: cover;
+    padding-bottom: 150px;
+}
 
 
 

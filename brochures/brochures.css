@@ -620,20 +620,18 @@ table {
 
 .top {
     height: auto;
-    background-image: url('/images/texturedBackground.jpg'); 
-    background-size: cover;
 }
 
 .lefttd {
     vertical-align: top;
-    padding-top: 45px;
+    padding-top: 105px;
     width: 50%;
     text-align: center;
     padding-bottom: 45px;
 }
 
 .righttd {
-    padding-top: 45px;
+    padding-top: 105px;
     width: 50%;
     vertical-align: top;
     padding-right: 5%;
@@ -648,14 +646,14 @@ table {
 }
 
 .bottom {
-    padding-top: 50px;
+    padding-top: 10px;
     height: auto;
 }
 
 .leftbd {
     background-color: #6f7069;
     vertical-align: top;
-    padding-top: 45px;
+    padding-top: 15px;
     width: 50%;
     text-align: center;
     padding-bottom: 45px;

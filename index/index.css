@@ -186,6 +186,34 @@ header {
     margin-top: 4px;
 }
 
+/*account header icon*/
+.account-icon {
+    width: 30px;
+    height: 50px;
+    font-size: 35px;
+    background-color: none;
+    position: fixed;
+    top: 0px;
+    right: 296px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+    
+/*shoppingcart header icon*/
+.shoppingcart-icon {
+    width: 30px;
+    height: 50px;
+    font-size: 35px;
+    background-color: none;
+    position: fixed;
+    top: 0px;
+    right: 230px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
 /*chat header icon*/
 .chat-icon {
     width: 30px;

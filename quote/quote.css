@@ -656,6 +656,7 @@ table {
     border-bottom-right-radius: 25px;
     justify-content: center;
     margin: auto;
+    style=padding-bottom: 50px;
 }
 
 input[type=select] {
@@ -710,6 +711,20 @@ input[type=select] {
     margin-top: 15px;
 }
 
+.newBtn {
+    font-size: 2rem;
+    color: white;
+    background-color: #989992;
+    border: none;
+    border-radius: 25px;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
 input[type=quote] {
     width: 95%;
     display: inline-block;
@@ -731,14 +746,14 @@ input[type=quote] {
     color: white;
     text-align: left;
     padding-bottom: 15px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .desop1 {
     color: #a88564;
     text-align: left;
     padding-bottom: 15px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 

@@ -607,8 +607,6 @@ input[type=submit]:hover {
 
 table {
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     color: #6F7069;
@@ -620,6 +618,7 @@ table {
 
 .top {
     height: auto;
+    margin-bottom: 50px;
 }
 
 .lefttd {
@@ -732,6 +731,14 @@ input[type=quote] {
     color: white;
     text-align: left;
     padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.desop1 {
+    color: #a88564;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 25px;
 }
 
 

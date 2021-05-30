@@ -693,10 +693,10 @@ input[type=select] {
 }
 
 .sectionlower {
-    height: auto;
     background-image: url('/images/texturedBackground.jpg'); 
     background-size: cover;
     padding-bottom: 25px;
+    padding-top: 50px;
 }
 
 .phillBtn {

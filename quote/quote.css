@@ -630,12 +630,10 @@ table {
 }
 
 .righttd {
-
     width: 50%;
     vertical-align: top;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 25px;
+    padding-right: 40%;
+    padding-left: 40%;
 }
 
 .specs {
@@ -695,8 +693,8 @@ input[type=select] {
 .sectionlower {
     background-image: url('/images/texturedBackground.jpg'); 
     background-size: cover;
-    padding-bottom: 25px;
-    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .phillBtn {
@@ -728,6 +726,12 @@ input[type=quote] {
 
 .leftcol {
     width: 100px;
+}
+
+.desop {
+    color: white;
+    text-align: left;
+    padding-bottom: 15px;
 }
 
 
